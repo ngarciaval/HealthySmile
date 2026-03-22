@@ -1,0 +1,15 @@
+{
+  "name": "HealthySmile",
+  "version": "1.0.0",
+  "description": "Aplicación interactiva con p5.js, MediaPipe y Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Natalia García Vallinas",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.0.3"
+  }
+}

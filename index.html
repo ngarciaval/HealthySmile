@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laboratorio HealthySmile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:," />
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script>
+</head>
+<body>
+  <div id="carga">
+    <div class="calabaza">
+      <div class="ojo izq"></div>
+      <div class="ojo der"></div>
+      <div class="boca"></div>
+    </div>
+    <h1>HealthySmile</h1>
+    <p>Preparando el cepillado mágico...</p>
+    <div class="barraCarga">
+      <div class="rellenoCarga"></div>
+    </div>
+  </div>
+
+  <div id="ui">
+    <div class="uiMarca">
+      <div class="icono">&#x1F383;</div>
+      <div class="marcaTxt">
+        <h1>HealthySmile</h1>
+        <p class="sub">Cepillado mágico</p>
+      </div>
+    </div>
+
+    <div class="uiAccion">
+      <button id="btn">Empezar experiencia</button>
+    </div>
+
+    <div class="uiEstado">
+      <p id="txtEstado">Pulsa el botón para empezar</p>
+      <p id="txtAyuda">Cerrada = filtro · Abierta = cepillado</p>
+    </div>
+
+    <div class="uiProgreso">
+      <div class="filaProg">
+        <span class="lblProg">Progreso</span>
+        <span id="txtTiempo">0 / 60 s</span>
+      </div>
+      <div class="progExt">
+        <div id="progInt" class="progInt"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fin" class="fin oculto">
+    <div class="finCaja">
+      <div class="finIcono">&#x1F3C6; &#x1F383;</div>
+      <h2>¡Reto conseguido!</h2>
+      <p>Has mantenido el cepillado mágico durante 1 minuto.</p>
+      <button id="btnRepetir">Repetir experiencia</button>
+    </div>
+  </div>
+
+  <audio id="musica" preload="auto" loop>
+    <source src="assets/music/halloween.mp3" type="audio/mpeg" />
+  </audio>
+
+  <canvas id="confetiTop"></canvas>
+
+  <script type="module" src="facelandmarker.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
