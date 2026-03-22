@@ -1,6 +1,6 @@
 # LABORATORIO HEALTHYSMILE 
 
-Este proyecto forma parte de la asignatura Diseño de Aplicaciones Interactivas (UOC 2026).
+Este proyecto forma parte de la asignatura Desarrollo de Aplicaciones Interactivas (UOC 2026).
 
 Se trata de una aplicación interactiva de escritorio que utiliza la cámara para detectar la apertura de la boca y generar una experiencia visual basada en el cepillado dental, todo ello ambientado en una temática de Halloween.
 
@@ -96,7 +96,7 @@ Resolución recomendada: 1920x1080 (Full HD)
 # AUTORÍA
 
 Natalia García Vallinas
-Diseño de Aplicaciones Interactivas
+Desarrollo de Aplicaciones Interactivas
 UOC - 2026
 
 
